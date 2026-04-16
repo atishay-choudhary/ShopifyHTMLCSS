@@ -283,15 +283,17 @@
 
 #gpt {
     border-radius: 25px;
+    width: 1500px;
 }
 
 #dfg {
     border-radius: 26px;
+    width: 1500px;
 }
 
 #asd {
     border-radius: 26px;
-    max-width: 1540px;
+    max-width: 1500px;
 }
 
 #page3 {
