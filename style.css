@@ -72,6 +72,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    ;
 }
 
 .hero-content {
@@ -119,9 +120,14 @@
 #page2 {
     background: black;
     padding: 100px 80px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     margin-top: -26px;
+    margin-top: -40px;
+    position: relative;
+
+    z-index: 5;
+
 }
 
 /* TEXT */
@@ -130,6 +136,7 @@
     color: white;
     font-weight: 300;
     margin-bottom: 20px;
+
 }
 
 #page2>p {
@@ -161,6 +168,7 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
+    border-radius: 26px;
 }
 
 .card-text {
@@ -253,7 +261,213 @@
 
 }
 
-@media(max-width:430px) {
+#onp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.on {
+    color: rgb(72, 72, 224);
+}
+
+.se {
+    color: white;
+    font-size: 80px;
+}
+
+#gt {
+    color: whitesmoke;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#gpt {
+    border-radius: 25px;
+}
+
+#dfg {
+    border-radius: 26px;
+}
+
+#asd {
+    border-radius: 26px;
+    max-width: 1540px;
+}
+
+#page3 {
+    background: linear-gradient(to bottom,
+            #0b2f2f 0%,
+            rgb(27, 106, 115) 100%);
+    padding: 100px 80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 5;
+    padding-bottom: 20px;
+    /* border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+}
+
+#easy {
+    color: white;
+    font-size: 50px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    /* max-width: 800px; */
+}
+
+/* CONTAINER */
+.p3-container {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    align-items: center;
+    margin-top: 80px;
+    gap: 80px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* IMAGES LEFT */
+.p3-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3-images img {
+    width: 100%;
+    max-width: 700px;
+    /* controls size */
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    /* position: absolute; */
+}
+
+/* first image */
+.img1 {
+    left: 0;
+    top: 0;
+}
+
+
+/* STEPS RIGHT */
+.p3-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+/* EACH STEP */
+.step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+}
+
+.step span {
+    color: #00d084;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.step p {
+    color: white;
+    font-size: 28px;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 225px;
+    border-radius: 26px;
+    font-size: 30px
+}
+
+#start:hover {
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+
+#footer {
+    background: #000;
+    color: #aaa;
+    padding: 80px 80px 40px;
+}
+
+/* TOP */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+/* LINKS */
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    width: 100%;
+}
+
+.col h4 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.col a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.col a:hover {
+    color: white;
+}
+
+/* BOTTOM */
+.footer-bottom {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom .left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-bottom .left a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-bottom .right {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* @media(max-width:430px) {
 
     #navbar nav img {
         width: 20%;
@@ -262,4 +476,4 @@
     #navbar nav ul {
         display: none;
     }
-}
+} */
