@@ -469,13 +469,140 @@
     font-size: 20px;
 }
 
-/* @media(max-width:430px) {
+@media (max-width: 768px) {
 
-    #navbar nav img {
-        width: 20%;
+    /* NAVBAR */
+    #navbar {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 10px;
     }
 
     #navbar nav ul {
         display: none;
     }
-} */
+
+    #navbar nav img {
+        width: 120px;
+    }
+
+    /* HERO */
+    .hero-content {
+        left: 5%;
+        max-width: 90%;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* PAGE 2 */
+    #page2 {
+        padding: 60px 20px;
+    }
+
+    #page2 h3 {
+        font-size: 26px;
+    }
+
+    #page2>p {
+        font-size: 15px;
+    }
+
+    /* SCROLL CARDS */
+    #card {
+        grid-auto-columns: 240px;
+    }
+
+    /* CARD2 STACK */
+    #card2 {
+        grid-template-columns: 1fr;
+    }
+
+    /* ENTERPRISE TEXT */
+    #entmil {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    #ent {
+        font-size: 32px;
+    }
+
+    #mil {
+        padding-top: 0;
+        font-size: 14px;
+    }
+
+    /* TEXT SECTION */
+    #onp {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .se {
+        font-size: 32px;
+    }
+
+    #gt {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    /* BIG IMAGES FIX */
+    #gpt,
+    #dfg,
+    #asd {
+        width: 100%;
+    }
+
+    /* PAGE 3 */
+    #easy {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .p3-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .p3-steps {
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .step p {
+        font-size: 18px;
+    }
+
+    #start {
+        font-size: 18px;
+        width: 180px;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
