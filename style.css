@@ -606,3 +606,136 @@
         text-align: center;
     }
 }
+
+@media (max-width: 430px) {
+
+    /* NAVBAR */
+    #navbar {
+        padding: 8px 10px;
+    }
+
+    #navbar nav img {
+        width: 100px;
+    }
+
+    #navbar div {
+        gap: 10px;
+    }
+
+    #b2 {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    /* HERO */
+    .hero-content {
+        left: 5%;
+        max-width: 90%;
+    }
+
+    .hero-content h1 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 12px;
+    }
+
+    /* BUTTONS */
+    .start,
+    .why {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    /* PAGE 2 */
+    #page2 {
+        padding: 40px 15px;
+    }
+
+    #page2 h3 {
+        font-size: 20px;
+    }
+
+    #page2>p {
+        font-size: 13px;
+    }
+
+    /* SCROLL CARDS */
+    #card {
+        grid-auto-columns: 100%;
+        gap: 20px;
+    }
+
+    .c {
+        width: 100%;
+    }
+
+    .c img {
+        height: 220px;
+    }
+
+    /* ENTERPRISE */
+    #ent {
+        font-size: 24px;
+    }
+
+    #mil {
+        font-size: 13px;
+    }
+
+    /* TEXT SECTION */
+    .se {
+        font-size: 24px;
+    }
+
+    #gt {
+        font-size: 12px;
+    }
+
+    /* PAGE 3 */
+    #easy {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .p3-images img {
+        max-width: 100%;
+    }
+
+    .step {
+        gap: 10px;
+    }
+
+    .step span {
+        font-size: 16px;
+    }
+
+    .step p {
+        font-size: 14px;
+    }
+
+    #start {
+        font-size: 16px;
+        width: 160px;
+        padding: 10px;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 50px 20px 20px;
+    }
+
+    .col h4 {
+        font-size: 14px;
+    }
+
+    .col a {
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
